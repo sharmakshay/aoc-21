@@ -2,8 +2,6 @@ with open('inputp2.txt') as f:
     contents = f.readlines()
     prevSet = None
     currSet = None
-    start = 0
-    stop = len(contents)
     offset = 2
     numOfIncMeasures = 0
 
